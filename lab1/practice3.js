@@ -1,5 +1,7 @@
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 const guesses = document.querySelector('.guesses');
+const lowNum = document.querySelector('.lowNum');
+const highNum = document.querySelector('.highNum');
 const lastResult = document.querySelector('.lastResult');
 const lowOrHi = document.querySelector('.lowOrHi');
 const guessSubmit = document.querySelector('.guessSubmit');
@@ -63,8 +65,10 @@ function checkGuess() {
         
         // User guesses lower than answer
         if(userGuess < randomNumber) {
+            objGuesses["low"].push(userGuess);
+            lowNum.textContent = 'Low numbers: ';
+            lowNum.textContent +=  objGuesses["low"] +' ';
             lowOrHi.textContent = 'Last guess was too low!' ;
-
             /* ********************
 
                 2. implement here 
@@ -73,9 +77,14 @@ function checkGuess() {
 
             ********************/
 
-        
+                
         // User guesses higher than answer
-        } else if(userGuess > randomNumber) {
+        }
+        
+        else if(userGuess > randomNumber) {
+            objGuesses["high"].push(userGuess);
+            highNum.textContent = 'High numbers: ';
+            highNum.textContent +=  objGuesses["high"] +' ';
             lowOrHi.textContent = 'Last guess was too high!';
             
             /* ********************

@@ -2,7 +2,7 @@ body{
     background-color: #d5c9dd;
 }
 #header{
-    height: 150px;
+    height: 140px;
     background: #BEACC3;
     border-radius: 10px;
     margin-top: 1.3rem;
@@ -18,7 +18,7 @@ body{
     font-style: oblique;
 }
 
-#UpperDiv{
+#firstDiv{
     background-color: white;
     border-radius: 10px;
     margin-left: 1.3rem;
@@ -27,10 +27,22 @@ body{
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     min-height: 260px;
 }
-
+a:link{
+    color: #8977ad;
+}
+a:hover{
+    font-weight: bold;
+}
+#email{
+    text-decoration: none;
+    border-color: rgb(218, 203, 226);
+    border-style: dotted;
+    border-radius: 8px;
+    padding: 3px;
+}
 .box{
     float: right;
     height: 50%;
@@ -42,14 +54,19 @@ h1{
 }
 #IntroArticle{
     color: #4E387E;
+    font-size: 110%;
 
 }
-
+li{
+    margin-left: 20px;
+    font-weight: 700;
+}
 #profile{
     width: 230px;
     height: 270px;
     border-radius: 30%;
     overflow:hidden;
+    margin-top: 20px;
     vertical-align: middle;
 }
 h2{
@@ -57,7 +74,7 @@ h2{
     font-size: 1.8rem;
     padding-left: 1rem;
 }
-#LowerDiv{
+#secondDiv{
     background-color: white;
     border-radius: 10px;
     margin-left: 1.3rem;
@@ -78,6 +95,7 @@ h2{
     float: right;
     color: #4E387E;
     font-size: 1.2rem;
+    text-align: left;
     padding-left: 20px;
     padding-top: 25%;
     font-family: serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -118,6 +136,26 @@ td{
     background-color: #d5c9dd;
     font-weight: bold;
 }
+#thirdDiv{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    margin-bottom: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 1rem;
+    min-height: 10rem;
+    text-align: center;
+}
+.table2{
+    text-align: center;
+    color: #4E387E;
+    border-collapse: separate;
+    border-spacing:2px 5px;
+}
+#th2{
+    background-color: #dbd4e7;
+}
 #footer{
     height: 50px;
     background: #9283ad;
@@ -125,8 +163,8 @@ td{
     margin-bottom: 1.3rem;
     margin-left: 1.3rem;
     margin-right: 1.3rem;
-    padding-top: 20px;
+    padding-top: 25px;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: white;
 }
