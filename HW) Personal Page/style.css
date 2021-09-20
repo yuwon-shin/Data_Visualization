@@ -2,11 +2,7 @@ body{
     background-color: #d5c9dd;
 }
 #header{
-<<<<<<< Updated upstream
-    height: 140px;
-=======
     height: 120px;
->>>>>>> Stashed changes
     background: #BEACC3;
     border-radius: 10px;
     margin: 1.3rem 1.3rem 0 1.3rem;
@@ -18,24 +14,25 @@ body{
     color: white;
     font-style: oblique;
 }
+#content{
+    min-width:600px;
 
+}
 #firstDiv{
-<<<<<<< Updated upstream
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-color: white;
     border-radius: 10px;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    margin-bottom: 1rem;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 30px;
-    padding-bottom: 20px;
+    margin: 1rem 1.3rem;
+    padding: 1rem;
     min-height: 260px;
 }
-a:link{
+a{
     color: #8977ad;
 }
 a:hover{
+    color: #8977ad;
     font-weight: bold;
 }
 #email{
@@ -45,68 +42,46 @@ a:hover{
     border-radius: 8px;
     padding: 3px;
 }
-.box{
-    float: right;
-    height: 50%;
-    padding-left: 20px;
-=======
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: white;
-    border-radius: 10px;
-    margin: 1rem 1.3rem;
-    min-height: 260px;
-}
 #Intro{
-    margin: 1rem;
->>>>>>> Stashed changes
+    margin-right: 1rem;
 }
 h1{
     color: #8977ad;
     font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 25px;
+
 }
 #IntroArticle{
     color: #4E387E;
-    font-size: 110%;
 
 }
-<<<<<<< Updated upstream
-li{
-    margin-left: 20px;
-    font-weight: 700;
-}
-#profile{
-    width: 230px;
-    height: 270px;
-=======
 #profImg{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 1rem;
 }
 #profImg img{
     max-height: 270px;
     max-width: auto;
->>>>>>> Stashed changes
     border-radius: 30%;
     overflow:hidden;
-    margin-top: 20px;
     vertical-align: middle;
     
 }
 h2{
     color: #8977ad;
     font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+
 }
 #secondDiv{
-<<<<<<< Updated upstream
-=======
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     justify-content: center;
-    align-items: center;
->>>>>>> Stashed changes
     background-color: white;
     border-radius: 10px;
     margin: 0 1.3rem 1rem 1.3rem;
@@ -117,13 +92,8 @@ h2{
 #leftDiv{
     padding-right: 1rem;
     align-items: center;
+}
 
-}
-#persTitle{
-    color: #8977ad;
-    font-size: 1.8rem;
-    margin-top: 0;
-}
 #leftChild{
     display: flex;
     justify-content: center;
@@ -132,12 +102,6 @@ h2{
 #MBTI{
     color: #4E387E;
     font-size: 1.2rem;
-<<<<<<< Updated upstream
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 25%;
-=======
->>>>>>> Stashed changes
     font-family: serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #mbtiImg{
@@ -148,14 +112,10 @@ h2{
 }
 
 #rightDiv{
-    height:auto;
-    border-radius: 10px;
-    padding-bottom: 15px;
-    padding-left: 1.6rem;
     align-items: center;
 }
 
-.table{
+.table1{
     text-align: center;
     color: #4E387E;
     border-collapse: separate;
@@ -169,26 +129,34 @@ tr{
     
 }
 td{
-    width: 100px;;
+    width: 80px;
 }
 #lunch{
     background-color: #d5c9dd;
     font-weight: bold;
 }
 #thirdDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 10px;
-<<<<<<< Updated upstream
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    margin-bottom: 1rem;
-    padding-top: 0.6rem;
-    padding-bottom: 1rem;
-    min-height: 10rem;
+    margin: 0 1.3rem 1rem 1.3rem;
+    padding: 1rem;
+    min-height: 25rem;
     text-align: center;
 }
-=======
-    margin: 0 1.3rem 1rem 1.3rem;
+#subvis{
+    min-width:20rem;
+}
+#chartbox{
+    max-width:20rem;
+    margin: 2rem 1rem 1rem 1rem;
+}
+.dropdown{
+    text-align: start;
 }
 #fourthDiv{
     background-color: white;
@@ -201,7 +169,6 @@ td{
 #DivChild{
     display: inline-block;
 }
->>>>>>> Stashed changes
 .table2{
     text-align: center;
     color: #4E387E;
@@ -212,14 +179,12 @@ td{
     background-color: #dbd4e7;
 }
 #footer{
-    height: 50px;
+    height: auto;
     background: #9283ad;
     border-radius: 10px;
-    margin-bottom: 1.3rem;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-    padding-top: 25px;
+    margin: 0 1.3rem 1.3rem 1.3rem;
+    padding: 1rem;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: white;
 }
