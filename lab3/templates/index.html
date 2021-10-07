@@ -1,0 +1,23 @@
+<!--All the html files should be stored in "templates" folder-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flask Template Example</title>
+    </head>
+
+    <body>
+        <div>
+            <p>{{ message }}</p>  <!--insert variables sent by flask-->
+
+            <p>{{ contacts }}</p>
+            <p>My contacts: </p>
+            <ul>
+                {% for contact in contacts %}  
+                <li>{{ contact}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>
